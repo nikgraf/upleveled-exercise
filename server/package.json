@@ -12,8 +12,8 @@
     "nodemon": "^1.18.3"
   },
   "scripts": {
-    "start": "nodemon index.js",
-    "start:slow": "nodemon index.js 1400",
+    "start": "node index.js",
+    "start:slow": "node index.js 1400",
     "seed": "node models/seed.js"
   }
 }
